@@ -36,6 +36,8 @@ public class DoctorController {
         return doctorService.deleteDoctor(id);
     }
 
+
+
     @PutMapping("/update")
     public DoctorModel updateDoctor (@RequestBody DoctorModel doctorModel){
         return doctorService.updateDoctor(doctorModel);
